@@ -20,9 +20,9 @@ include_directories(
 
 add_executable(OpenGL main.cpp
         src/glad.c
+        Structs.hpp
 )
 
 target_link_libraries(OpenGL
         ${GLFW3_LIBRARY}
 )
-
